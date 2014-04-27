@@ -1,0 +1,30 @@
+<script type="text/javascript" src="lib/md5.js"></script>
+<script type="text/javascript">
+(function(){
+  var Gravatar = Object.create(HTMLElement.prototype);
+
+  Gravatar.attachedCallback = function (){
+    var email = "";
+    var size  = 200;
+    var hash  = "d41d8cd98f00b204e9800998ecf8427e";
+
+    if(this.attributes.email){
+      email = this.attributes.email.value;
+      hash = hex_md5(email);
+    }
+
+    if(this.attributes.size){
+      size = this.attributes.size.value;
+    }
+
+    var root = this.createShadowRoot();
+    var img = document.createElement('img');
+    img.src = "http://www.gravatar.com/avatar/"+ hash +"?s=" + size;
+    root.appendChild(img);
+  };
+
+  var gravatar = document.registerElement('gravatar-tag', {
+    prototype: Gravatar
+  });
+})();
+</script>
