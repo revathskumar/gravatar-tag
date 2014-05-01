@@ -1,0 +1,22 @@
+{
+  "name": "gravatar-tag-demo",
+  "version": "0.0.1",
+  "homepage": "http://revathskumar.github.io/gravatar-tag/",
+  "authors": [
+    "Revath S Kumar <rsk@revathskumar.com>"
+  ],
+  "description": "Demo of gravatar-tag",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gravatar-tag": "~0.0.3"
+  }
+}
