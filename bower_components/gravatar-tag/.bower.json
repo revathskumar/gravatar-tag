@@ -1,0 +1,35 @@
+{
+  "name": "gravatar-tag",
+  "version": "0.0.4",
+  "authors": [
+    "Revath S Kumar <rsk@revathskumar.com>"
+  ],
+  "description": "Custom element for gravatar",
+  "main": "gravatar-tag.html",
+  "keywords": [
+    "gravatar",
+    "web-components"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "JavaScript-MD5": "~1.1.0"
+  },
+  "homepage": "https://github.com/revathskumar/gravatar-tag",
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.4",
+    "commit": "763117bedbbd376e8b26d54f554610a23c5c02c6"
+  },
+  "_source": "git://github.com/revathskumar/gravatar-tag.git",
+  "_target": "~0.0.3",
+  "_originalSource": "gravatar-tag"
+}

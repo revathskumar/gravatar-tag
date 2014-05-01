@@ -1,0 +1,25 @@
+{
+  "name": "gravatar-tag",
+  "version": "0.0.4",
+  "authors": [
+    "Revath S Kumar <rsk@revathskumar.com>"
+  ],
+  "description": "Custom element for gravatar",
+  "main": "gravatar-tag.html",
+  "keywords": [
+    "gravatar",
+    "web-components"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "JavaScript-MD5": "~1.1.0"
+  }
+}
