@@ -10,7 +10,7 @@
 
     if(this.attributes.email){
       email = this.attributes.email.value;
-      hash = hex_md5(email);
+      hash = md5(email);
     }
 
     if(this.attributes.size){
