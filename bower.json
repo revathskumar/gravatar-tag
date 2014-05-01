@@ -1,6 +1,6 @@
 {
   "name": "gravatar-tag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Revath S Kumar <rsk@revathskumar.com>"
   ],
@@ -19,5 +19,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "JavaScript-MD5": "~1.1.0"
+  }
 }
