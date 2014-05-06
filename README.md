@@ -17,7 +17,7 @@
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/gravatar-tag.html">
+    <link rel="import" href="bower_components/gravatar-tag/gravatar-tag.html">
     ```
 
 4. Start using it!
